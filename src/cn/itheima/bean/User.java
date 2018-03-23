@@ -85,5 +85,21 @@ public class User {
 	public void setAge(Integer age) {
 		this.age = age;
 	}
+
+	/* (non-Javadoc)  
+	
+	 * Title: toString 
+	
+	 * Description:   
+	
+	 * @return  
+	
+	 * @see java.lang.Object#toString()  
+	
+	 */
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", age=" + age + "]";
+	}
     
 }
